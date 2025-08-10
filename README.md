@@ -42,18 +42,17 @@ Hosting (optional): Vercel (Frontend), Render/Atlas (Backend & DB)
 
 # 1.Clone the repository
 
-
+     git clone https://github.com/likithu25/Habit-Tracker-Application.git
+     cd Habit-Tracker-Application
 
 # 2.Install dependencies for both frontend and backend
 
      cd client && npm install
-
      cd ../server && npm install
 
 # 3.Add environment variables in .env inside /server
 
      MONGO_URI=your_mongodb_connection
-
      JWT_SECRET=your_jwt_secret
 
 # 4.Start the development servers
@@ -61,16 +60,12 @@ Hosting (optional): Vercel (Frontend), Render/Atlas (Backend & DB)
 # In one terminal:
 
      cd server
-
      npm install
-
      node server.js
 
 # In another terminal:
 
      cd client
-     
      npm install
-     
      npm run dev
 
