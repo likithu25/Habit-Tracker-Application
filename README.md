@@ -3,10 +3,15 @@ Habit Tracker is a web application designed to help users build and maintain pos
 
 # 🚀 Features
 🔐 Secure JWT-based authentication
+
 📅 Create habits grouped by time of day (Morning, Afternoon, Evening, Night)
+
 📈 Visual streak tracking with animated calendar heatmaps
+
 ✅ Mark habits as done for the day
+
 🌈 Neon-dark theme with glowing cards and UI animations
+
 🧠 Frontend built with Vite + React + TailwindCSS v4
 
 # Screenshots
