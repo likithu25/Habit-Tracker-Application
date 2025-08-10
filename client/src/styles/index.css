@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-neon-pink {
+    color: #ff4ecd;
+  }
+  .text-neon-blue {
+    color: #38bdf8;
+  }
+  .text-neon-green {
+    color: #00ffb7;
+  }
+}
+@layer base {
+  html {
+    font-family: "Helvetica", sans-serif;
+    font-weight: 700;
+  }
+}
+@keyframes gradientGlow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #4e0940, #161638, #064242, #111);
+  background-size: 300% 300%;
+  animation: gradientGlow 20s ease infinite;
+}
+
+@layer utilities {
+  .neon-glow {
+    box-shadow: 0 0 10px rgba(0, 255, 183, 0.6),
+      0 0 20px rgba(255, 78, 205, 0.4);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  .neon-glow:hover {
+    box-shadow: 0 0 12px rgba(0, 255, 183, 0.8),
+      0 0 30px rgba(255, 78, 205, 0.6);
+    transform: translateY(-4px) scale(1.02);
+  }
+}
