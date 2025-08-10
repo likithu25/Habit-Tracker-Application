@@ -12,8 +12,6 @@ Habit Tracker is a web application designed to help users build and maintain pos
 
 <img width="1882" height="802" alt="Screenshot 2025-08-10 161228" src="https://github.com/user-attachments/assets/997d0c2a-63a0-42fd-bbfc-c894e7c9365d" />
 
-<img width="1918" height="905" alt="Screenshot 2025-08-10 161324" src="https://github.com/user-attachments/assets/f8313443-2663-4a9c-aee2-5cee44202994" />
-
 # Technologies Used:
 Frontend: React, Tailwind CSS v4, Vite
 
