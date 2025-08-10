@@ -38,25 +38,35 @@ Auth: JWT (JSON Web Tokens)
 
 Hosting (optional): Vercel (Frontend), Render/Atlas (Backend & DB)
 
-🧪 Running Locally
-Clone the repository
+# 🧪 Running Locally
 
-git clone https://github.com/Deep2915/habit-tracker.git
-cd habit-tracker
-Install dependencies for both frontend and backend
+1.Clone the repository
+
+
+
+2.Install dependencies for both frontend and backend
 
 cd client && npm install
+
 cd ../server && npm install
-Add environment variables in .env inside /server
+
+3.Add environment variables in .env inside /server
 
 MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_jwt_secret
-Start the development servers
 
-In one terminal:
+JWT_SECRET=your_jwt_secret
+
+4.Start the development servers
+
+# In one terminal:
+
 cd server
+
 node server.js
-In another terminal:
+
+# In another terminal:
+
 cd client
+
 npm run dev
 
